@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('C:\Users\John Rupert Azarias\Documents\React\activity-2\public\helvetica.ttf');
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica;
+}
+
+/* Header */
+  
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000000;
+    color: white;
+    height: 70px;
+    z-index: 2;
+  }
+  
+.logo img {
+    width: 160px;
+    height: auto;
+    padding-right: 450px;
+}
+
+  
+.buy-now button {
+    padding: 10px 20px;
+    background-color: #e30101;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Helvetica';
+}
+  
+.ourgames {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Kobe.css */
+
+.kobe-wrapper {
+  position: relative;
+  width: 100%;
+  height: 950px;
+  margin: 0;
+  padding: 0;
+}
+
+.kobe img {
+  width: 100%;
+  height: auto;
+}
+
+.kobe-logo {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+}
+
+.kobe-logo img {
+  width: 500px;
+  height: 127px;
+}
+
+.buy-now-button {
+  height: 50px;
+  width: 150px;
+  position: absolute;
+  top: calc(50% + 80px);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: #e30101;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: 'Helvetica';
+}
+
+
+/*Charcoal*/
+
+.charcoal-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .charcoal {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text-overlay {
+    font-family: sans-serif;
+    width: 1355px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+/*Games*/
+
+.games-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center; 
+    gap: 0;
+  }
+  
+.gamesClasses {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    padding: 10px;
+  
+    img {
+      width: 400px; 
+      height: 400px; 
+      object-fit: cover; 
+    }
+
+    p {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+}
+
+/* Footer */
+
+.footer {
+    font-family: sans-serif;
+    background-color: #000; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+}
+
+
+.logos-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+  
+.logo-footer {
+    width: 100px; 
+    height: 60px;
+    padding: 10px;
+}
+  
